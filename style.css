@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4F0 100%);
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.delete {
+    display: none;
+}
+
+main {
+    background-color: white;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%); /* Vai utilizar 42.8 rem, mas quando não der vai usar os 90% do espaço. */
+
+    margin-top: -12rem;
+
+    text-align: center;
+}
+
+/* screenOne */
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: #34355B;
+}
+
+h2, p, input, button {
+    font-family: "DM Sans", sans-serif;
+}
+
+p {
+    color: #34355B;
+    opacity: 0.8;
+
+    margin-top: 1.6rem;
+    margin-bottom: 4.8rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+
+input, button {
+    padding: 1.6rem;
+    border: none;
+}
+
+input {
+    color: #34355B;
+    background-color: #DCE2E9;
+    width: 6rem;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+button {
+    font-weight: 700;
+    color: white;
+    background-color: #7879F1;
+    border-radius: 0 .4rem .4rem 0;
+    cursor: pointer;
+
+    transition: background .3s;
+}
+
+button:hover {
+    background-color: #5050ad;
+}
+
+/* screenTwo */
+
+.screenTwo h2 {
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+.screenTwo button {
+    border-radius: .4rem;
+    margin-top: 3.3rem;
+}
